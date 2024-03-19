@@ -56,7 +56,7 @@ const taskController = {
     createTask: async (req, res) => {
         try {
             await taskService.createTask(req.body);
-            res.json({ success: true, message: "Task created successfully" });
+            res.json({ success: true, message: "Task created successfully",  });
         } catch (error) {
             console.error("Error creating task in Supabase:", error.message);
             res.status(500).json({ success: false, error: "Internal Server Error" });

@@ -20,7 +20,7 @@
  * the logic for interacting with the database and performing the required operations.
  * 
  * The service layer should also not contain any reference to the express framework or any other
- * web server framework. It should be a standalone module that can be used in any environment without
+ * web server framework. It should be a standalone module that can be used in any environment.
   * */
 
 // database connection

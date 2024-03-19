@@ -1,6 +1,13 @@
+/***
+ * in this file, we define the routes for the tasks
+ * all crud operations are defined here and the corresponding
+ * controller methods are called to perform the operations
+*/
+
 import express from 'express';
 const router = express.Router();
 
+// Import controller for tasks
 import taskController from '../controllers/tasks.js';
 
 // GET all tasks
