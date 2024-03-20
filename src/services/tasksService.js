@@ -1,9 +1,13 @@
 /***
- * this file contains the service layer for the tasks endpoint. It contains the logic for interacting with
- * the database to perform CRUD operations on the tasks table.
+ * File description:
  * 
- * The service layer is responsible for handling the database connection and performing the required
- * operations on the database. It should contain all the business logic and database operations required
+ * This file contains the service layer for the tasks endpoint. It contains
+ * the logic for interacting with the database to perform CRUD operations on the tasks table.
+ * 
+ * The service layer is responsible for handling the database connection and performing the
+ * required operations on the database.
+ * 
+ * It should contain all the business logic and database operations required
  * to perform the CRUD operations on the tasks table.
  * 
  * The service layer should not contain any validation logic. It should assume that the data has been
